@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/item_doreh"
+        android:title="سایر ویدئو های آموزشی "
+        android:icon="@drawable/ic_baseline_wrap_text_24"/>
+
+    <item android:id="@+id/item_sourcecod"
+        android:title=" سورس کد"
+        android:icon="@drawable/github"/>
+
+
+    <item android:id="@+id/item_youtube"
+        android:title="  یوتیوب ما"
+        android:icon="@drawable/ic_baseline_wrap_text_24"/>
+
+
+
+    <item android:id="@+id/item_about"
+        android:title="درباره برنامه"
+        android:icon="@drawable/ic_baseline_info_24"/>
+
+</menu>
