@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">TracerApp</string>
     <string name="title_activity_maps">TracerApp</string>
+    <string name="info_app_part1">Info Tracer Application</string>
+    <string name="info_app_part2">"Tracer App version 1 \n \n Developer: Saman Sepahvand  \n \n Don't Forget Follow Us :)  \n  Have Fun :) "</string>
 
 </resources>
