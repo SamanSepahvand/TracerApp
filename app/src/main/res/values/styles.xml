@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
     </style>
 
     <style name="PopupMenuMoreCentralized" parent="@style/Widget.AppCompat.PopupMenu">
@@ -17,5 +18,13 @@
         <!-- Customize your theme here. -->
         <item name="android:layoutDirection">rtl</item>
     </style>
+    <style name="AppTheme.WhiteColor">
+        <item name="colorAccent">@color/colorwhite</item>
+    </style>
 
+    <style name="CustomFontStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/fonts</item>
+        <item name="android:textColor">@color/colorwhite</item>
+        <item name="android:textSize">18sp</item>
+    </style>
 </resources>

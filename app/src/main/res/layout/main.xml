@@ -16,7 +16,13 @@
         android:textDirection="rtl"
         android:layout_gravity="right"
         app:headerLayout="@layout/header"
-        android:id="@+id/navigationView"/>
+        android:id="@+id/navigationView">
+
+
+
+        <include layout="@layout/footer"/>
+
+    </com.google.android.material.navigation.NavigationView>
 
 
 
