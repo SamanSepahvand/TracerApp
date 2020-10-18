@@ -104,15 +104,12 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
         initShared();
-
         initView();
         setNavigationViewListener();
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
         imgMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,10 +120,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             @Override
             public void onClick(View v) {
                 captureScreen();
-
-
-
-
             }
         });
 
@@ -149,7 +142,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             mycolor=preferences.getInt(COLORS,Color.BLACK);
         }
     }
-
     private  void saveShared(int color){
         SharedPreferences.Editor editor=preferences.edit();
         editor.putInt(COLORS,color);
@@ -158,8 +150,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private void initView() {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
         imgMenu = findViewById(R.id.img_menu);
         imgItems = findViewById(R.id.img_items);
         nav = findViewById(R.id.navigationView);
@@ -168,7 +158,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         root = (ConstraintLayout)findViewById(R.id.root);
 
     }
-
 
     private void handlePermission() {
         if (ActivityCompat.checkSelfPermission(this,
@@ -182,7 +171,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
     }
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, String[] permissions,  int[] grantResults) {
         if (requestCode == Constant.LOCATION_PERMISSION) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 handlePermission();
@@ -269,7 +258,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+    public boolean onNavigationItemSelected( MenuItem menuItem) {
         switch (menuItem.getItemId()) {
 
             case R.id.item_doreh:
@@ -328,7 +317,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         private FollowMeLocationSource() {
             // Get reference to Location Manager
             locationManager = (LocationManager) getBaseContext().getSystemService(Context.LOCATION_SERVICE);
-
             // Specify Location Provider criteria
             criteria.setAccuracy(Criteria.ACCURACY_FINE);
             criteria.setPowerRequirement(Criteria.POWER_LOW);
