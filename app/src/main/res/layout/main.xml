@@ -19,9 +19,6 @@
         android:id="@+id/navigationView">
 
 
-
-        <include layout="@layout/footer"/>
-
     </com.google.android.material.navigation.NavigationView>
 
 
