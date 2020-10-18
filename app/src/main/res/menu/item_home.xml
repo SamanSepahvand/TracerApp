@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/item_maptype"
+        android:title="نوع نقشه"
+        android:icon="@drawable/ic_baseline_map_24" />
+
+
+    <item android:id="@+id/item_changepolylinecolor"
+        android:title="تغییر رنک خط مسیر یابی"
+        android:icon="@drawable/ic_round_clear_24" />
+
+    <item android:id="@+id/item_mapclear"
+        android:title="پاک کردن نقشه"
+        android:icon="@drawable/ic_round_clear_24" />
+
+
+</menu>

@@ -4,7 +4,7 @@
 
     <item android:id="@+id/item_doreh"
         android:title="سایر ویدئو های آموزشی "
-        android:icon="@drawable/ic_baseline_wrap_text_24"/>
+        android:icon="@drawable/eduaction"/>
 
     <item android:id="@+id/item_sourcecod"
         android:title=" سورس کد"
@@ -13,7 +13,7 @@
 
     <item android:id="@+id/item_youtube"
         android:title="  یوتیوب ما"
-        android:icon="@drawable/ic_baseline_wrap_text_24"/>
+        android:icon="@drawable/youttube"/>
 
 
 
