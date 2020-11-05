@@ -6,15 +6,19 @@
 
 
 <h4>.اپلیکیشن بعد از اجرا به طور خودکار با گرفتن لوکیشن کاربر اقدام به نمایش مسیر کاربر میکند و در پایان کاربر می تواند از فعالیت خود گزارش گرفته و در قالب عکس آن را به اشتراک بگذارد</h4>
-</br>  <a href="https://faranesh.com/author/samansepahvand"><b>
+</br>  <a href="https://faranesh.com/programming/19315-complete-training-to-work-with-maps-in-android-programming"><b>
 دریافت دوره آموزش کامل کار با نقشه ها در برنامه نویسی اندروید
+</b></a></br>
+
+</br>  <a href="http://s17.picofile.com/file/8412993650/TracerApp.apk.html"><b>
+**دریافت اپلیکیشن
 </b></a></br>
 
 # اسکرین شات ها
 
 
 
-[![ویدئو یوتبوب برنامه](http://s17.picofile.com/file/8412026268/tracer_icon1.png)](https://www.youtube.com/watch?v=UCAB72ugAZ09MfEONwCJX8Mg)
+[![ویدئو یوتبوب برنامه](http://s16.picofile.com/file/8412993676/tracerappLOGO.png)](https://www.youtube.com/watch?v=UCAB72ugAZ09MfEONwCJX8Mg)
 
 <br>
 
