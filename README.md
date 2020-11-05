@@ -10,7 +10,7 @@
 دریافت دوره آموزش کامل کار با نقشه ها در برنامه نویسی اندروید
 </b></a></br>
 
-</br>  <a href="http://s17.picofile.com/file/8412993650/TracerApp.apk.html"><b>
+</br>  <a href="https://samansepahvand.ir/App/Apk/TracerApp.apk"><b>
 **دریافت اپلیکیشن
 </b></a></br>
 
@@ -33,7 +33,7 @@
 </table>
 </br>
 
-</br>  <a href="https://github.com/SamanSepahvand/TracerApp/blob/master/TracerApp.apk">دانلود برنامه <b>
+</br>  <a href="https://samansepahvand.ir/App/Apk/TracerApp.apk">دانلود برنامه <b>
 
 # درباره ما
 
